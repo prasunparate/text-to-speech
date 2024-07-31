@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text to Speech</title>
+    </head>
+    <body style="margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #f7f9fc;">
+        <div style="background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); width: 400px; max-width: 90%; text-align: center;">
+            <h2 style="margin-bottom: 20px; color: #333;">Text to Speech</h2>
+            <form action="/submit" method="POST">
+                <label for="freeform" >Enter Text</label><br>
+                <textarea id="freeform" name="freeform" placeholder="Enter text to be converted" required> </textarea>
+                <br>
+                <input type="submit" value="Generate Voice">
+            </form>
+        </div>
+    </body>
+</HTML>
